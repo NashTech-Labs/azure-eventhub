@@ -5,9 +5,9 @@ from azure.eventhub.extensions.checkpointstoreblobaio import (
     BlobCheckpointStore,
 )
 
-BLOB_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=knoldusstorage;AccountKey=5momS1nQNQ57YZR9povJ4B+YM/NucLRNI9fASicqwKimKZLEP4hW6qgah2nnmZTAIj4i5b+cKvdA+AStHEclsg==;EndpointSuffix=core.windows.net"
+BLOB_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=knoldusstorage;AccountKey=5momS8yi7g766tr6rufff6661nQNQ57YZR9povJ4B+YM/NucLRNI9fASicqwKimKZLEP4hW6qgah2nnmZTAIj4i5b+cKvdA+AStHEclsg==;EndpointSuffix=core.windows.net"
 BLOB_CONTAINER_NAME = "knoldusblob"
-EVENT_HUB_CONNECTION_STR = "Endpoint=sb://knolduseventhub.servicebus.windows.net/;SharedAccessKeyName=RootPolicyAccess;SharedAccessKey=qq54G24WIEzmupDsKSEHE4cDoDUmqpLzjR6uRqH5uDA=;EntityPath=knoldusevent"
+EVENT_HUB_CONNECTION_STR = "Endpoint=sb://knolduseventhub.servicebus.windows.net/;SharedAccessKeyName=RootPolicyAccess;SharedAccessKey=qq54Gy89tyf6rtfftf6f624WIEzmupDsKSEHE4cDoDUmqpLzjR6uRqH5uDA=;EntityPath=knoldusevent"
 EVENT_HUB_NAME = "knoldusevent"
 
 async def on_event(partition_context, event):
