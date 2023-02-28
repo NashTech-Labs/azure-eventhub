@@ -3,7 +3,7 @@ import asyncio
 from azure.eventhub import EventData
 from azure.eventhub.aio import EventHubProducerClient
 
-EVENT_HUB_CONNECTION_STR = "Endpoint=sb://knolduseventhub.servicebus.windows.net/;SharedAccessKeyName=RootPolicyAccess;SharedAccessKey=qq54G24WIEzmupDsKSEHE4cDoDUmqpLzjR6uRqH5uDA=;EntityPath=knoldusevent"
+EVENT_HUB_CONNECTION_STR = "Endpoint=sb://knolduseventhub.servicebus.windows.net/;SharedAccessKeyName=RootPolicyAccess;SharedAccessKey=qq54G2565rft4ddfugj4WIEzmupDsKSEHE4cDoDUmqpLzjR6uRqH5uDA=;EntityPath=knoldusevent"
 EVENT_HUB_NAME = "knoldusevent"
 
 async def run():
